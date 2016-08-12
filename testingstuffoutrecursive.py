@@ -2,6 +2,7 @@
 import turtle
 #sL=sideLength,lvls=levels
 def snowflakeSide(sL,lvls):
+    '''helper function for snowflake()'''
     if lvls<=0:
         turtle.forward(sL)
         return
@@ -13,9 +14,10 @@ def snowflakeSide(sL,lvls):
 #check tree fxn
 
 def snowflake(sL,lvls):
+    '''draws a snowflake using a turtle'''
     return #range
     
-    
+        
         
     
     
